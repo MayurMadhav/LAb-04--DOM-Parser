@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sweetshop>
+ <sweetshop >
+    <sweets category="Special">
+        <title lang="en">Special</title>
+        <types> Horlicks Burfi  </types>
+        <origin>North India</origin>
+        <price>600</price>
+    </sweets>
+
+    <sweets category="Festive">
+        <title lang="en">Festive</title>
+        <types> Kaju Chocolate Roll  </types>
+        <origin>Chef's Special</origin>
+        <price>600</price>
+    </sweets>
+
+    <sweets category="Regular">
+        <title lang="en">Regular</title>
+        <types> Mysore Pak  </types>
+        <origin>Karnataka</origin>
+        <price>600</price>
+    </sweets>
+
+</sweetshop>
