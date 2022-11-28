@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sweetshop>
+    <sweets category="Special">
+        <title lang="en">Special</title>
+        <types> Horlicks Burfi, Cadbury Burfi, Motichoor Ladu  </types>
+        <origin>North India</origin>
+        <price>800</price>
+    </sweets>
+
+    <sweets category="Festive">
+        <title1 lang="en">Festive</title1>
+        <types1> Kaju Chocolate Roll, Kaju Sandwich, Kaju Kamal, Moti Pak </types1>
+        <origin1>Chef's Special</origin1>
+        <price1>1200</price1>
+    </sweets>
+
+    <sweets category="Regular">
+        <title2 lang="en">Regular</title2>
+        <types2> Mysore Pak,  Special Mysore Pak, Dharwad Peda, Regular Peda  </types2>
+        <origin2>Karnataka</origin2>
+        <price2>500</price2>
+    </sweets>
+
+    <sweets category="Liquid">
+        <title3 lang="en">Special</title3>
+        <types3> Mysore Pak,  Special Mysore Pak, Dharwad Peda, Regular Peda  </types3>
+        <origin4>Karnataka</origin4>
+        <price5>500</price5>
+    </sweets>
+
+</sweetshop>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Sweets</h2>
+
+<!--<div id="demo">
+<button type="button" onclick="loadXMLDoc()"></button> -->
+
+<table>
+<tr><th>Category</th><th>Sweets</th><th>Kind</th><th>Price</th></tr>
+<td id="col1"></td>
+<td id="col2"></td>
+<td id="col3"></td>
+<td id="col4"></td>
+<tr>
+  <td id="col11"></td>
+  <td id="col12"></td>
+  <td id="col13"></td>
+  <td id="col14"></td>
+</tr>
+<tr>
+  <td id="col21"></td>
+  <td id="col22"></td>
+  <td id="col23"></td>
+  <td id="col24"></td>
+</tr>
+
+</table>
+</div>
+
+<script>
+ 
+  var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    myFunction(this);
+    }
+};
+xhttp.open("GET", "Domain.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var xmlDoc  = xml.responseXML;
+    var xmlDoc1 = xml.responseXML;
+    var xmlDoc2 = xml.responseXML;
+    var xmlDoc3 = xml.responseXML;
+    var xmlDoc4 = xml.responseXML;
+    var xmlDoc5 = xml.responseXML;
+    var xmlDoc6 = xml.responseXML;
+    var xmlDoc7 = xml.responseXML;
+    var xmlDoc8 = xml.responseXML;
+    var xmlDoc9 = xml.responseXML;
+    var xmlDoc10 = xml.responseXML;
+    var xmlDoc11= xml.responseXML;
+    document.getElementById("col1").innerHTML =
+    xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+    document.getElementById("col2").innerHTML =
+    xmlDoc1.getElementsByTagName("types")[0].childNodes[0].nodeValue;
+    document.getElementById("col3").innerHTML =
+    xmlDoc2.getElementsByTagName("origin")[0].childNodes[0].nodeValue;
+    document.getElementById("col4").innerHTML =
+    xmlDoc3.getElementsByTagName("price")[0].childNodes[0].nodeValue;
+    document.getElementById("col11").innerHTML =
+    xmlDoc4.getElementsByTagName("title1")[0].childNodes[0].nodeValue;
+    document.getElementById("col12").innerHTML =
+    xmlDoc5.getElementsByTagName("types1")[0].childNodes[0].nodeValue;
+    document.getElementById("col13").innerHTML =
+    xmlDoc6.getElementsByTagName("origin1")[0].childNodes[0].nodeValue;
+    document.getElementById("col14").innerHTML =
+    xmlDoc7.getElementsByTagName("price2")[0].childNodes[0].nodeValue;
+    document.getElementById("col21").innerHTML =
+    xmlDoc4.getElementsByTagName("title2")[0].childNodes[0].nodeValue;
+    document.getElementById("col22").innerHTML =
+    xmlDoc5.getElementsByTagName("types2")[0].childNodes[0].nodeValue;
+    document.getElementById("col23").innerHTML =
+    xmlDoc6.getElementsByTagName("origin2")[0].childNodes[0].nodeValue;
+    document.getElementById("col24").innerHTML =
+    xmlDoc7.getElementsByTagName("price2")[0].childNodes[0].nodeValue;
+    
+    
+
+}
+</script>
+<style type="text/css">
+	table,td {
+  border: 3px solid green;
+}
+th{
+  color: aqua;
+  background-color: green;
+}
+h2{
+  color: darkolivegreen;
+  border-color: green;
+}
+</style>
+</body>
+</html>
